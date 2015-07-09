@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Good Bye Betty!</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -8,29 +9,18 @@
 </head>
 <body>
     <div class="site-wrapper">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
-          <div class="masthead clearfix">
-            <div class="inner">
-              <!-- <h3 class="masthead-brand">Cover</h3> -->
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li><a target="_blank" href="https://www.facebook.com/bernardosalada">Facebook</a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-          <div class="inner cover">
-            <%= yield %>
-          </div>
-          <div class="mastfoot">
-            <div class="inner">
-              Good Luck!
-            </div>
-          </div>
-
+      <div class="cover-container">
+        <nav>
+          <a target="_blank" href="https://www.facebook.com/bernardosalada">Facebook</a>
+        </nav>
+        <div class="inner cover">
+          <%= yield %>
         </div>
+        
+        <footer class="mastfoot">Good Luck!</footer>
       </div>
     </div>
+
+    <div class="bg"></div>
 </body>
 </html>
