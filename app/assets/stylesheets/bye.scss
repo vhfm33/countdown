@@ -160,6 +160,9 @@ body {
  */
 
 @media (min-width: 768px) {
+   h1 {
+   	font-size: 40px;
+   }
   /* Pull out the header and footer */
   .masthead {
     position: fixed;
@@ -178,6 +181,18 @@ body {
   .mastfoot,
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+
+  .countdown {
+	font-size: 50px;
+  }
+
+  .masthead-nav > li > a {
+  	font-size: 40px;
+  }
+
+  .inner {
+  	font-size: 40px;
   }
 }
 
