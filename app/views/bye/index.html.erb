@@ -1,0 +1,10 @@
+<h1>Good Bye Bernardo!!</h1>
+<div class="countdown" data-countdown="2015/07/24"></div>
+<script type="text/javascript">
+	$('[data-countdown]').each(function() {
+		var $this = $(this), finalDate = $(this).data('countdown');
+			$this.countdown(finalDate, function(event) {
+			$this.html(event.strftime('%Dd %Hh %Mm %Ss'));
+		});
+	});
+</script>
