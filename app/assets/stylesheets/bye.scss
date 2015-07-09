@@ -31,7 +31,7 @@ html,
 body {
   height: 100%;
   background-color: #333;
-  
+
 }
 body {
   color: #fff;
@@ -130,6 +130,19 @@ body {
  */
 .countdown {
 	font-size: 71px;
+}
+
+.picture {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 40px auto;
+}
+
+.picture > img {
+	display: block;
+	width: 100%;
 }
 
 /*
