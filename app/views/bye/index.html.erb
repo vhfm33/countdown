@@ -5,10 +5,19 @@
 <h1>Good Bye Bernardo!!</h1>
 <div class="countdown" data-countdown="2015/07/25"></div>
 <script type="text/javascript">
+	var flashEachMinutes = function(timestamp) {
+		var currentSeconds = new Date(timestamp).getSeconds();
+		if (currentSeconds === 0)
+			$("h1").flash("flash", 1000);
+	};
+
 	$('[data-countdown]').each(function() {
-		var $this = $(this), finalDate = $(this).data('countdown');
-			$this.countdown(finalDate, function(event) {
+		var $this = $(this), 
+		    finalDate = $(this).data('countdown');
+
+		$this.countdown(finalDate, function(event) {			
 			$this.html(event.strftime('%Dd %Hh %Mm %Ss'));
+			flashEachMinutes(event.timeStamp);
 		});
 	});
 </script>
