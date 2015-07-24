@@ -35,20 +35,23 @@
                 $('#container-gif').removeClass('bg3').addClass('bg4');
                 break;
             case 4:
-                $('#container-gif').removeClass('bg4').addClass('bg0');
+                $('#container-gif').removeClass('bg4').addClass('bg5');
+                break;
+            case 5:
+                $('#container-gif').removeClass('bg5').addClass('bg0');
                 break;
             default:
                 $('#container-gif').attr('class', '').addClass('bg0');
         }
     };
 
-    setInterval(function() {
-        runned = false;
-        if (runned == false) {
-            runned = true;
-            randonGifs();
-        }
-    }, 10000);
+    // setInterval(function() {
+    //     runned = false;
+    //     if (runned == false) {
+    //         runned = true;
+    //         randonGifs();
+    //     }
+    // }, 10000);
 
     $('[data-countdown]').each(function() {
         var $this = $(this), 
