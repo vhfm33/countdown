@@ -1,15 +1,17 @@
 var encourage = [
   "Come go!!!",
   "Uhuuu...",
-  "Toma uma weiss que melhora.",
+  "Toma uma IPA que melhora.",
   "Boa!",
-  "Você precisa ser mais auto suficiente.",
+  "Vc precisa ser mais auto suficiente.",
   "Me deixa codar.",
   "Galera, se importam se eu trabalhar de casa hoje?",
-  "Inacreditável. Reunião diária em menos de 8 minutos.",
+  "Inacreditavel. Reuniao diaria em menos de 8 minutos.",
   "Ok show!",
   "Preteou o olho da gateada",
-  "Forkei almoço."
+  "Forkei almoço.",
+  "Deixe que venha!",
+  "I Left to the snakes"
 ];
 
 function getRandomInt(min, max) {
