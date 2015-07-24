@@ -16,4 +16,5 @@
 //= require_tree .
 //= jquery.countdown.js
 //= flash.js
+//= bubble.js
 
