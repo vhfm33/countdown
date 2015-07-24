@@ -1,7 +1,5 @@
 .bubble {
   position: absolute;
-  width: 230px;
-  height: 75px;
   padding: 0px;
   background: #FFFFFF;
   -webkit-border-radius: 25px;
@@ -11,6 +9,10 @@
   left: 750px;
   color: green;
   font-size: 3.5em;
+  min-height: 75px;
+  word-wrap: break-word;
+  min-width: 230px;
+  max-width: 400px;
   &:after {
     content: '';
     position: absolute;
