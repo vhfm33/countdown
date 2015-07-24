@@ -9,7 +9,7 @@ var encourage = [
   "Inacreditavel. Reuniao diaria em menos de 8 minutos.",
   "Ok show!",
   "Preteou o olho da gateada",
-  "Forkei almoço.",
+  "Forkei almoÃ§o.",
   "Deixe que venha!",
   "I Left to the snakes"
 ];
@@ -26,7 +26,7 @@ function getNextPhase(phases) {
 }
 
 $(function() {
-  console.info('Tem mais frases famosas que deseja compartilhar? \nContribui aí: https://github.com/vhfm33/countdown');
+  console.info('Tem mais frases famosas que deseja compartilhar? \nContribui aÃ­: https://github.com/vhfm33/countdown');
   setInterval(function () {
     $bubble = $('.bubble');
     $bubble.text(getNextPhase(encourage));
